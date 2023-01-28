@@ -85,6 +85,10 @@ section >  h1, p {
     margin: 0 15px;
 }
 
+.grid {
+    margin: 0 32px;
+}
+
 .image-grid-1 {
     width: 343px;
     height: 320px;
@@ -351,8 +355,7 @@ footer {
     margin: 0 628px;
     margin-top: -56px;
 }
-
-   
-
 }
+
+
 

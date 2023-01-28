@@ -12,6 +12,10 @@
     z-index: 1;
 }
 
+.tablet-map {
+    display: none;
+}
+
 div > a {
     width: 141px;
     height: 24px;
@@ -43,6 +47,7 @@ div > a {
 }
 
 .map {
+    display: block;
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -147,6 +152,70 @@ footer {
 
 .fb, .instagram, .twit {
     color: #151515;
+}
+
+@media screen and (min-width: 768px) {
+    .map {
+        display: none;
+    }
+
+    .tablet-map {
+        display: block;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .btn {
+        z-index: 1;
+        margin-left: 39px;
+    }
+
+    section {
+        display: flex;
+        box-sizing: border-box;
+        gap: 76px;
+    }
+
+    .section-h1 {
+        width: 223px;
+        height: 100px;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+        margin-top: 53px;
+        margin-left: 39px;
+    }
+
+    footer {
+        height: 216px;
+       }
+    
+       .footer-logo {
+        width: 110.05px;
+        height: 40px;
+        margin: 0 39px;
+        margin-top: 56px;
+    }
+    
+    .footer-p {
+        width: 281px;
+        height: 104px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 219px;
+        margin-top: -45px;
+    }
+
+    .links {
+        margin: 0 728px;
+        margin-top: -106px;
+    }
 }
 
 

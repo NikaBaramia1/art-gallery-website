@@ -354,6 +354,47 @@ footer {
 
 @media screen and (min-width: 1100px) {
     
+    .tablet-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .black-desktop {
+        width: 450px;
+        height: 799px;
+        background: #151515;
+    }
+
+    .desktop-img {
+        width: 540px;
+        height: 800px;
+        background: url(./assets/desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .display-flex {
+        display: flex;
+    }
+
+    .header-title {
+        width: 514px;
+        height: 176px;
+        color: white;
+        margin: 0 -135px;
+    }
+
+    .header-flex {
+        display: flex;
+    }
+
+    .header-title {
+        background-clip: text;
+        color: transparent;
+        background: linear-gradient(90deg, white 80%, black 20%);
+    }
 }
 
 

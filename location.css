@@ -213,7 +213,8 @@ footer {
     }
 
     .links {
-        margin: 0 728px;
+        display: flex;
+        justify-content: end;
         margin-top: -106px;
     }
 }

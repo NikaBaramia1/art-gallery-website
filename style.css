@@ -41,7 +41,7 @@ header > h1, p, .btn {
     font-size: 18px;
     line-height: 28px;
     color: gray;
-    margin-top: -32px;
+    margin-top: 32px;
 }
 
 .btn {
@@ -77,18 +77,9 @@ div > a {
     
 }
 
-section > div {
-    margin: auto;
+section {
+   
 }
-
-section >  h1, p {
-    margin: 0 15px;
-}
-
-.grid {
-    margin: 0 32px;
-}
-
 .image-grid-1 {
     width: 343px;
     height: 320px;
@@ -117,8 +108,9 @@ section >  h1, p {
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
+    margin: 0;
+    margin-top: 21px;
     color: gray;
-    margin-top: -21px;
 }
 
 .image-grid-2 {
@@ -126,7 +118,7 @@ section >  h1, p {
     height: 480px;
     background-image: url(./assets/mobile/image-grid-2.jpg);
     background-repeat: no-repeat;
-    margin-top: 64px;
+    margin-top: 32px;
 }
 
 .image-grid-3 {
@@ -141,14 +133,11 @@ section >  h1, p {
     width: 343px;
     height: 293px;
     background: #151515;
-    margin: auto;
     margin-top: 16px;
     margin-bottom: 120px;
 }
 
-.black-box > h1, p {
-    padding-top: 48px;
-}
+
 
 .box-h1 {
     width: 295px;
@@ -159,7 +148,7 @@ section >  h1, p {
     font-size: 50px;
     line-height: 45px;
     color: white;
-    margin: 0 24px;
+    
 }
 
 .box-p {
@@ -171,7 +160,7 @@ section >  h1, p {
     font-size: 18px;
     line-height: 28px;
     color: white;
-    margin: 0 24px;
+    
     margin-top: 24px;
 }
 

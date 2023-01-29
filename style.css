@@ -16,8 +16,9 @@
     width: 100%;
 }
 
-header > h1, p, .btn {
-    margin: 0 15px;
+header {
+    display: grid;
+    justify-content: center;
 }
 
 .header-title {
@@ -47,6 +48,7 @@ header > h1, p, .btn {
 .btn {
     display: flex;
     margin-top: 64px;
+    
 }
 
 div > a {
@@ -73,13 +75,13 @@ div > a {
     width: 56px;
     height: 72px;
     background: #D5966C;
-    
-    
 }
 
 section {
-   
+   display: grid;
+   justify-content: center;
 }
+
 .image-grid-1 {
     width: 343px;
     height: 320px;
@@ -135,8 +137,13 @@ section {
     background: #151515;
     margin-top: 16px;
     margin-bottom: 120px;
+    display: grid;
+    justify-content: center;
 }
 
+.black-box > h1 {
+    padding-top: 56px;
+}
 
 
 .box-h1 {
@@ -160,7 +167,6 @@ section {
     font-size: 18px;
     line-height: 28px;
     color: white;
-    
     margin-top: 24px;
 }
 
@@ -170,13 +176,14 @@ footer {
     background: #151515;
 }
 
+
 .footer-logo {
     margin: 0 32px;
     margin-top: 48px;
 }
 
 .footer-p {
-    width: 343px;
+    width: 311px;
     height: 104px;
     font-family: 'Outfit';
     font-style: normal;
@@ -185,13 +192,15 @@ footer {
     line-height: 26px;
     color:white;
     margin: 0 32px;
+    margin-top: 38px;
 }
 
 .links {
     display: flex;
     gap: 20px;
     margin: 0 32px;
-    margin-top: 76px;
+    margin-top: 38px;
+   
 }
 
 @media screen and (min-width: 768px) {
@@ -262,10 +271,8 @@ footer {
         background-image: url(./assets/tablet/image-grid-1.jpg);
     }
 
-
    .flex {
         display: flex;
-        
         justify-content: center;
    }
 
@@ -336,14 +343,17 @@ footer {
     font-size: 16px;
     line-height: 26px;
     margin: 0 214px;
-    margin-top: -90px;
-
-    
+    margin-top: -45px;
 }
 .links {
-    margin: 0 628px;
-    margin-top: -56px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -100px;
 }
+}
+
+@media screen and (min-width: 1100px) {
+    
 }
 
 

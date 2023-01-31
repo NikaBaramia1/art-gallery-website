@@ -16,6 +16,10 @@
     display: none;
 }
 
+.desktop-map {
+    display: none;
+}
+
 div > a {
     width: 141px;
     height: 24px;
@@ -159,6 +163,10 @@ footer {
         display: none;
     }
 
+    .desktop-map {
+        display: none;
+    }
+
     .tablet-map {
         display: block;
         width: 100%;
@@ -230,6 +238,7 @@ footer {
     }
 
     .desktop-map {
+        display: block;
         height: 90%;
         position: absolute;
         z-index: -1;
@@ -239,12 +248,6 @@ footer {
     .btn {
         margin: 0 165px;
         z-index: 1;
-    }
-
-    section {
-        display: flex;
-        box-sizing: border-box;
-        
     }
 
     .section-h1 {

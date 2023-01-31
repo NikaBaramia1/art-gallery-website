@@ -272,6 +272,22 @@ footer {
         margin-top: 104px;
     }
 
+    .section-p {
+        width: 445px;
+        height: 96px;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .second-p {
+        width: 540px;
+        height: 128px;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
 
     footer {
         width: 100%;

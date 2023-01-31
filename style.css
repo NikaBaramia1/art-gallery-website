@@ -71,6 +71,15 @@ div > a {
     background:  #151515;
 }
 
+.button-1:hover {
+    background: #d5966c;
+    cursor: pointer;
+}
+
+.button-1:hover ~ .button-2 {
+    background-color: #151515;
+  }
+
 .button-2 {
     width: 56px;
     height: 72px;
